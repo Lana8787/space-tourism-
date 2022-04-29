@@ -1,3 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-size: 3.5rem;
+}
+
+body header nav.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+body header nav .header_container {
+  display: flex;
+  flex-direction: row;
+  /*align-items: center;*/
+}
+
+.menu_text:hover {
+  text-decoration: underline;
+}
+
+@media screen(min-width: 600px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+body {
+  background: url(./assets/background-home-desktop.jpg);
+}
+
+#body_container {
+  display: flex;
+  flex-direction: row;
+}
+
 .menu_text {
   font-family: Barlow Condensed;
   font-weight: 400;
@@ -5,6 +46,8 @@
   font-size: 16px;
   line-height: 19, 2px;
   color: #d0d6f9;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .menu_number {
@@ -16,9 +59,6 @@
   color: white;
 }
 
-ol {
-  list-style-type: none;
-}
 .text_accent {
   font-family: Barlow Condensed;
   font-weight: 400;
@@ -46,39 +86,9 @@ ol {
   color: #d0d6f9;
 }
 
-/*.large_button {
-  font-family: Bellefair;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 32px;
-  line-height: 36, 67px;
-}*/
-
-/*.large-button {
-  position: relative;
-  z-index: 1;
-  display: grid;
-  place-items: center;
-  padding: 0 2em;
-  border-radius: 50%;
-  aspect-ratio: 1;
-  text-decoration: none;
-}*/
-
 .large_button {
   background-color: white;
   width: 274px;
   height: 274px;
   border-radius: 50%;
-}
-
-.container {
-  padding: 0;
-  margin: 0;
-  background: url(./assets/background-home-desktop.jpg);
-  width: 1440px;
-  height: 900px;
-}
-
-.primary-header {
 }
