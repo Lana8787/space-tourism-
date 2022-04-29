@@ -32,6 +32,7 @@ body header nav .header_container {
 
 body {
   background: url(./assets/background-home-desktop.jpg);
+  background-size: cover;
 }
 
 #body_container {
