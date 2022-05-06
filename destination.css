@@ -1,0 +1,25 @@
+.destination {
+  background: url(./assets/background-destination-desktop.jpg);
+  background-size: cover;
+}
+
+.container_destination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*height: 100px;*/
+  /*margin: 150px 150px 50px 150px;*/
+}
+
+.image-container {
+  display: flex;
+  height: 700px;
+  flex-wrap: wrap;
+  align-content: space-around;
+  margin: 0 150px;
+}
+
+.content_destination {
+  height: 500px;
+  width: 500px;
+}
